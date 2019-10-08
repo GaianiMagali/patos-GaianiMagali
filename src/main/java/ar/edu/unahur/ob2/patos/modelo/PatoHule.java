@@ -3,7 +3,7 @@ package ar.edu.unahur.ob2.patos.modelo;
 public class PatoHule extends Pato {
 
     public PatoHule() {
-        super(new NoVuelo());
+        super(new NoVuelo(),new Nado(),new NoParpo());
     }
 
     @Override
